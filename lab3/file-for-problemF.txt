@@ -1,0 +1,22 @@
+1st break point:
+mainA = 1
+mainB = 20000
+
+2nd breakpoint:
+x = 1
+y = 20000
+no symbol "mainA" in current context
+no symbol "mainB" in current context
+*bc there is no mainA and mainB variable in the swap function*
+
+3rd breakpoint
+x = 20000
+y = 1
+*values of x and y have been swapped*
+
+4th breakpoint
+mainA = 1
+mainB = 2000 
+no symbol "x" in current context
+no symbol "y" in current context
+*bc there is no x and y variable in the swap function*
